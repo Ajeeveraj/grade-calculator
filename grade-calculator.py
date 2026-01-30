@@ -14,6 +14,20 @@ def get_grades(avg):
         return "B"
     else:
         return "A"
+
+# calculate grades
+def student_scores9():
+    scores = []
+    
+    print("input your grades, type done when your finished.")
+
+user_input = input("Enter one score at a time ")
+
+
+    
+    
+
+
     
 
     
