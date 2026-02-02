@@ -1,5 +1,5 @@
 # welcome
-print("Welcome, please add your grades")
+print("Welcome, please add your grades to the Smart grade analyzer.")
 
 
 # define grades
@@ -18,7 +18,7 @@ def get_grades(avg):
 # input grades
 def student_scores():
     scores = []
-    print("input your grades, type done when your finished.\n")
+    print("Enter your grades, type done when your finished.\n")
     
     while True:
         user_input = input("Score ")
@@ -33,7 +33,7 @@ def student_scores():
             if 0 <=score <= 100:
                 scores.append(score)
             else:
-                print("Your scores were invalid(must be 0-100).")
+                print("Invalid(must be 0-100).")
                    
         except ValueError:
             print("That is not a number try again!")
