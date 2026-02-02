@@ -16,13 +16,16 @@ def get_grades(avg):
         return "A"
 
 # calculate grades
+print("input your grades, type done when your finished.\n")
 def student_scores9():
     scores = []
     
-    print("input your grades, type done when your finished.")
+    
     
 while True:
         user_input = input("Enter one score at a time ")
+        if user_input.lower() == "done":
+            break
 
 
     
